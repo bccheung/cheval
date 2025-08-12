@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from pandas.testing import assert_series_equal, assert_frame_equal
 
-from ..cheval import LinkedDataFrame
+from ..wsp_cheval import LinkedDataFrame
 
 vehicles_data = {
     'household_id': [0, 0, 1, 2, 3],

@@ -3,7 +3,7 @@ from bisect import bisect_right
 import numpy as np
 from numpy.testing import assert_allclose, assert_equal
 
-from ..cheval.core import (MIN_RANDOM_VALUE, logarithmic_search,
+from ..wsp_cheval.core import (MIN_RANDOM_VALUE, logarithmic_search,
                            multinomial_multisample, multinomial_probabilities,
                            multinomial_sample, nested_multisample,
                            nested_probabilities, nested_sample, sample_multi,
@@ -11,7 +11,7 @@ from ..cheval.core import (MIN_RANDOM_VALUE, logarithmic_search,
                            worker_multinomial_probabilities,
                            worker_multinomial_sample,
                            worker_nested_probabilities, worker_nested_sample)
-from ..cheval.model import ChoiceModel
+from ..wsp_cheval.model import ChoiceModel
 
 
 def _build_nested_tree():
