@@ -7,9 +7,9 @@ authors = [
 ]
 description = "High-performance discrete-choice (logit) travel demand model evaluation"
 readme = "README.md"
+license = "BSD-3-Clause"
 classifiers = [
     "Development Status :: 4 - Beta",
-    "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3"
 ]
