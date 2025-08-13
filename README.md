@@ -22,7 +22,7 @@ Cheval is compatible with Python 3.7+
 
 Cheval can be installed with the following command:
 
-``batch
+```batch
 pip install wsp-cheval
 ```
 
